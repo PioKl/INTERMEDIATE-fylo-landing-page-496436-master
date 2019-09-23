@@ -1,0 +1,640 @@
+/*=============================
+          COLORS
+===============================*/
+/* PRIMARY */
+/*Accent*/
+/*Neutral*/
+/*=============================
+          Body, Headings
+===============================*/
+body {
+  background: white;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+/* TYPOGRAPHY / Headings, Call-to-actions, Header Navigation */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.container {
+  padding: 3rem 6%;
+}
+
+*:focus {
+  outline: none;
+}
+
+.input-email,
+.butttonGetStarted {
+  padding: 12px 0px;
+  border-radius: 4px;
+  border: 1px solid black;
+  font-size: 1rem;
+}
+
+.input-email {
+  padding-left: 5%;
+  margin-bottom: 3%;
+  font-family: 'Open-Sans', sans-serif;
+  font-weight: 400;
+  color: #bfbfbf;
+}
+
+.input-email::-webkit-input-placeholder {
+  opacity: 0.3;
+}
+
+.input-email:-ms-input-placeholder {
+  opacity: 0.3;
+}
+
+.input-email::-ms-input-placeholder {
+  opacity: 0.3;
+}
+
+.input-email::placeholder {
+  opacity: 0.3;
+}
+
+.butttonGetStarted {
+  background-color: #3065f8;
+  border-radius: 4px;
+  border: 1px solid #3065f8;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/*=============================================
+             SECTION NAVIGATION
+===============================================*/
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: nowrap;
+  font-size: .9rem;
+}
+
+.nav__item {
+  padding: 3%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.logo {
+  width: 30%;
+}
+
+/*====================================================================
+                               SECTION MAIN
+======================================================================*/
+/*=============================================
+             SECTION MAIN TOP
+===============================================*/
+.mainTop-info,
+.mainMiddle-info,
+.mainBottom-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  text-align: center;
+}
+
+.mainTop-info--h1, .mainTop-info--h2,
+.mainMiddle-info--h1,
+.mainMiddle-info--h2,
+.mainBottom-info--h1,
+.mainBottom-info--h2 {
+  padding: 1.5rem 0 2rem;
+}
+
+.mainTop-info--p,
+.mainMiddle-info--p,
+.mainBottom-info--p {
+  padding-bottom: 2rem;
+}
+
+.mainTop-info-form,
+.mainBottom-info-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+
+.illustration {
+  width: 100%;
+}
+
+.mainMiddle::before {
+  content: '';
+  background: url(/images/bg-curve-mobile.svg);
+  background-repeat: no-repeat;
+  width: 100%;
+  display: block;
+  background-size: 100%;
+  height: 150px;
+  background-position: bottom center;
+  margin-bottom: -3px;
+}
+
+.containerFillMiddle {
+  background-color: #f6f6fe;
+}
+
+/*=============================================
+             SECTION MAIN MIDDLE
+===============================================*/
+.mainMiddle-info--p {
+  text-align: left;
+  font-size: 1.1rem;
+  opacity: 0.7;
+}
+
+.fyloWorks {
+  color: #3c9f8f;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #3c9f8f;
+}
+
+.iconArrow {
+  width: 25px;
+  position: relative;
+  top: 7px;
+}
+
+.card-founderSentence {
+  padding: 2rem;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 15%;
+  font-size: 14px;
+  color: black;
+  line-height: 1.5;
+  text-align: left;
+  background-color: white;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 10px 4px #bfbfbf;
+          box-shadow: 0 0 10px 4px #bfbfbf;
+}
+
+.icon-quotes {
+  padding-bottom: 2%;
+}
+
+.card-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5%;
+}
+
+.card-image-avatar {
+  height: 50px;
+  border-radius: 50%;
+}
+
+.card-text--h3, .card-text--p {
+  padding-left: 5%;
+  white-space: nowrap;
+}
+
+/*=============================================
+             SECTION MAIN BOTTOM
+===============================================*/
+.mainBottom {
+  background: #585989;
+}
+
+.mainBottom-info {
+  color: white;
+}
+
+.mainBottom-info--p {
+  line-height: 1.6;
+}
+
+/*====================================================================
+                               SECTION FOOTER
+======================================================================*/
+footer {
+  background: #070439;
+  color: white;
+}
+
+.footerContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  /*=============================================
+             SECTION FOOTER LOGO
+    ===============================================*/
+  /*=============================================
+             SECTION FOOTER QUICK CONTACT
+    ===============================================*/
+  /*=============================================
+             SECTION CONTACT
+    ===============================================*/
+  /*=============================================
+             SECTION SOCIAL
+    ===============================================*/
+}
+
+.footerContainer .logo {
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+  padding-bottom: 5%;
+}
+
+.footerContainer .quickContactItem:first-child::before {
+  content: url(/images/icon-phone.svg);
+}
+
+.footerContainer .quickContactItem:last-child::before {
+  content: url(/images/icon-email.svg);
+}
+
+.footerContainer .quickContactItem:first-child::before,
+.footerContainer .quickContactItem:last-child::before {
+  padding-right: 10px;
+  position: relative;
+  top: 1px;
+}
+
+.footerContainer .quickContactItem,
+.footerContainer .contactItem {
+  padding: 5px 0;
+}
+
+.footerContainer .contactItemList {
+  padding: 5% 0;
+}
+
+.footerContainer .contactItemLink {
+  color: white;
+}
+
+.footerContainer .socialItemList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footerContainer .socialItem {
+  padding: 0 1rem;
+}
+
+.footerContainer .fab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.footerContainer .socialLink {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/*=============================================================================================================================
+                                                       MEDIA QUERIES
+==============================================================================================================================*/
+/*==================================================
+                MEDIA QUERIES min 376px
+====================================================*/
+@media only screen and (min-width: 376px) {
+  /*===================
+       SECTION NAVIGATION
+    =====================*/
+  .logo {
+    max-width: 200px;
+  }
+}
+
+/*==================================================
+                MEDIA QUERIES min 768px
+====================================================*/
+@media only screen and (min-width: 768px) {
+  /*===================
+       SECTION NAVIGATION
+    =====================*/
+  .nav__items {
+    font-size: 1.1rem;
+  }
+  .nav__item {
+    padding: 6%;
+  }
+  /*==================================
+                SECTION MAIN
+    ====================================*/
+  /*==================================
+                SECTION MAIN TOP
+    ====================================*/
+  .mainTop-info,
+  .mainMiddle-info {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+        grid-template-areas: "infoGrid illustrationGrid";
+    grid-gap: 8%;
+    text-align: center;
+  }
+  .mainTop-illustrationGrid {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: illustrationGrid;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .mainTop-infoGrid {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: infoGrid;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .mainTop-info-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+  }
+  .input-email,
+  .butttonGetStarted {
+    font-size: .8rem;
+    white-space: nowrap;
+  }
+  .input-email {
+    margin-bottom: 0;
+    width: 70%;
+    margin-right: 5%;
+  }
+  .butttonGetStarted {
+    width: 35%;
+  }
+  /*==================================
+                SECTION MAIN MIDDLE
+    ====================================*/
+  .mainMiddle::before {
+    background: url(/images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    display: block;
+    background-size: 100%;
+    height: 150px;
+    background-position: bottom center;
+    margin-bottom: -3px;
+  }
+  .mainMiddle-illustrationGrid {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: illustrationGrid;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .mainMiddle-infoGrid {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: infoGrid;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    text-align: left;
+  }
+  .card-founderSentence {
+    margin: 0;
+    margin-top: 8%;
+  }
+  /*==================================
+                SECTION MAIN BOTTOM
+    ====================================*/
+  .mainBottom-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+  }
+  .mainBottom-info--h2, .mainBottom-info--p {
+    text-align: left;
+  }
+  .mainBottom-info-form {
+    width: 100%;
+  }
+  .mainBottom-info-form .input-email,
+  .mainBottom-info-form .butttonGetStarted {
+    font-size: 0.9rem;
+  }
+  .mainBottom-info-form .input-email {
+    width: 100%;
+    margin-bottom: 2%;
+  }
+  .mainBottom-info-form .butttonGetStarted {
+    width: 70%;
+  }
+  .mainBottom-infoContainer {
+    width: 100%;
+    margin-right: 4%;
+  }
+  .mainBottom-formContainer {
+    width: 100%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-left: 4%;
+  }
+  /*==================================
+                SECTION FOOTER
+    ====================================*/
+  .footerContainer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+        grid-template-areas: "footerLogo . ." "footerQuickContact contact social";
+  }
+  .footerContainer .contactItemList {
+    padding: 0% 0;
+  }
+  .footerContainer .logo {
+    width: 100%;
+    padding-bottom: 10%;
+  }
+  .footerContainer .fab {
+    height: 40px;
+    width: 40px;
+    font-size: 1rem;
+  }
+  .footerLogo {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: footerLogo;
+  }
+  .footerQuickContact {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: footerQuickContact;
+  }
+  /*==================================
+                SECTION CONTACT
+    ====================================*/
+  .contact {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    grid-area: contact;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+        grid-template-areas: "contactFirstPart contactSecondPart";
+  }
+  .contact .contactFirstPart {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: contactFirstPart;
+    margin-left: 15%;
+  }
+  .contact .contactSecondPart {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: contactSecondPart;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  /*==================================
+                SECTION SOCIAL
+    ====================================*/
+  .social {
+    -ms-grid-row: 2;
+    -ms-grid-column: 3;
+    grid-area: social;
+  }
+}
+
+/*==================================================
+                MEDIA QUERIES min 1224px
+====================================================*/
+@media only screen and (min-width: 1224px) {
+  .input-email,
+  .butttonGetStarted {
+    font-size: 1rem;
+  }
+  /*==================================
+            SECTION MAIN BOTTOM
+    ====================================*/
+  .mainBottom-info-form .input-email,
+  .mainBottom-info-form .butttonGetStarted {
+    font-size: 1rem;
+  }
+  .mainBottom-info-form .butttonGetStarted {
+    width: 50%;
+  }
+  /*==================================
+            SECTION FOOTER
+    ====================================*/
+  .footerContainer .fab {
+    height: 50px;
+    width: 50px;
+    font-size: 1.5rem;
+  }
+  /*==================================
+            SECTION CONTACT
+    ====================================*/
+  .contact .contactFirstPart {
+    margin-left: 0%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
