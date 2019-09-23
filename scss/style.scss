@@ -174,7 +174,7 @@ a {
 
 .mainMiddle::before {
     content: '';
-    background: url(/images/bg-curve-mobile.svg);
+    background: url(../images/bg-curve-mobile.svg);
     background-repeat: no-repeat;
     width: 100%;
     display: block;
@@ -294,11 +294,11 @@ footer {
              SECTION FOOTER QUICK CONTACT
     ===============================================*/
     .quickContactItem:first-child::before {
-        content: url(/images/icon-phone.svg);
+        content: url(../images/icon-phone.svg);
     }
 
     .quickContactItem:last-child::before {
-        content: url(/images/icon-email.svg);
+        content: url(../images/icon-email.svg);
     }
 
     //Same Values
@@ -452,7 +452,7 @@ footer {
                 SECTION MAIN MIDDLE
     ====================================*/
     .mainMiddle::before {
-        background: url(/images/bg-curve-desktop.svg);
+        background: url(../images/bg-curve-desktop.svg);
         background-repeat: no-repeat;
         width: 100%;
         display: block;
